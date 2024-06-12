@@ -1,0 +1,83 @@
+*{    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;}
+
+.seccion{
+display: flex;
+}
+
+.seccion1{  
+    height: 100vh;
+    width: 20%;
+    display: flex;
+flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e8ebe4;
+
+}
+
+.seccion2{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #bec1cc;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.divisiondefoto {
+    padding: 9px;
+    border: solid 1px rgb(189, 189, 189);
+  
+}
+
+
+
+.button1 {
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    border: solid 1px rgb(189, 189, 189);
+}
+
+.foto1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    gap: 20px;
+   
+}
+
+.letra { 
+   padding: 20px;
+
+}
+ 
+.foto2 {
+    width: 350px;
+    height: 350px;
+}
+
+.letra2{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+}
+
+
+
